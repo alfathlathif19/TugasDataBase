@@ -13,10 +13,10 @@ namespace VendingMachine
     {
         public showData()
         {
-            Database databaseObject = new Database();
+            Database databaseObject = new();
 
             string query = "SELECT * FROM Product";
-            SQLiteCommand myCommand = new SQLiteCommand(query, databaseObject.myConnection);
+            SQLiteCommand myCommand = new(query, databaseObject.MyConnection);
             databaseObject.OpenConnection();
             SQLiteDataReader result = myCommand.ExecuteReader();
             if (result.HasRows)

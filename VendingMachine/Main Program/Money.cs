@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace VendingMachine
 {
-    class Money
+    public class Money
     {
         //Class ini menginisiasi nominal uang sebelum user memasukan uang
-        private int _value = 0;
+        private int _value;
 
         public int GetValue()
         {

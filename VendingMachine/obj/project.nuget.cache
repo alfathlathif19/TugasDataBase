@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qennmhukk7noP6fTljjvXhu/qgucdLPSSJGzRRJgab/BhGlJ3jOBTIJi5uXq+oYLa9xl0q7hUwruzZz1ARAH7w==",
+  "dgSpecHash": "H/XQ1TIavGaPijHLcIIwh+eH0KV1QoyOBUaLLqeyIvEmSYoAw2NENXN2MYGTvswD8VEhr1y/hl8QHZnkK9ef+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alfath\\source\\repos\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
+  "projectFilePath": "C:\\Users\\alfath\\source\\repos\\TugasAkhir\\VendingMachine\\VendingMachine.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alfath\\.nuget\\packages\\entityframework\\6.3.0\\entityframework.6.3.0.nupkg.sha512",
     "C:\\Users\\alfath\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

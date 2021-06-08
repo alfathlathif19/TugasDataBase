@@ -12,17 +12,17 @@ namespace VendingMachine
         static void Main(string[] args)
         {
             int uangPembelian;
-            inputMoney _inputMoney = new inputMoney();
-            Money money = new Money();
+            inputMoney _inputMoney = new();
+            Money money = new();
             while (money.GetValue() == 0)
             {
                 Console.WriteLine("Masukan uang anda dengan nominal 10, 20, 50, atau 100");
                 uangPembelian = Convert.ToInt32(Console.ReadLine());
-                _inputMoney.totalUang(uangPembelian, money);
+                inputMoney.TotalUang(uangPembelian, money);
             }
 
 
-            inputUser pembeli = new inputUser();
+            inputUser pembeli = new();
             pembeli.menu(money);
 
             Console.WriteLine();

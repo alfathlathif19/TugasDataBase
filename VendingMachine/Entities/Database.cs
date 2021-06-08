@@ -10,11 +10,11 @@ namespace VendingMachine
 {
     public class Database
     {
-        public SQLiteConnection myConnection;
+        public SQLiteConnection MyConnection { get; set; }
 
         public Database()
         {
-            myConnection = new SQLiteConnection("Data Source=databse.sqlite3");
+            MyConnection = new SQLiteConnection("Data Source=databse.sqlite3");
 
             if (!File.Exists("./databse.sqlite3"))
             {
@@ -25,17 +25,17 @@ namespace VendingMachine
 
         public void OpenConnection()
         {
-            if (myConnection.State != System.Data.ConnectionState.Open)
+            if (MyConnection.State != System.Data.ConnectionState.Open)
             {
-                myConnection.Open();
+                MyConnection.Open();
             }
         }
 
         public void CloseConnection()
         {
-            if (myConnection.State != System.Data.ConnectionState.Closed)
+            if (MyConnection.State != System.Data.ConnectionState.Closed)
             {
-                myConnection.Close();
+                MyConnection.Close();
             }
         }
     }

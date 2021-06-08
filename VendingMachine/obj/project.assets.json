@@ -2091,11 +2091,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alfath\\source\\repos\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
+      "projectUniqueName": "C:\\Users\\alfath\\source\\repos\\TugasAkhir\\VendingMachine\\VendingMachine.csproj",
       "projectName": "VendingMachine",
-      "projectPath": "C:\\Users\\alfath\\source\\repos\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
+      "projectPath": "C:\\Users\\alfath\\source\\repos\\TugasAkhir\\VendingMachine\\VendingMachine.csproj",
       "packagesPath": "C:\\Users\\alfath\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alfath\\source\\repos\\VendingMachine\\VendingMachine\\obj\\",
+      "outputPath": "C:\\Users\\alfath\\source\\repos\\TugasAkhir\\VendingMachine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alfath\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2162,7 +2162,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

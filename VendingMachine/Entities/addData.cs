@@ -10,17 +10,17 @@ using System.IO;
 namespace VendingMachine
 {
     //Kelas ini hanya digunakan untuk menginput data baru ke database
-    public class addData
+    public class AddData
     {
-        public addData()
+        public AddData()
         {
-            Database databaseObject = new Database();
+            Database databaseObject = new();
 
             string query = "INSERT INTO Product ('Name') VALUES (@Name)";
-            SQLiteCommand myCommand = new SQLiteCommand(query, databaseObject.myConnection);
+            SQLiteCommand myCommand = new(query, databaseObject.MyConnection);
             databaseObject.OpenConnection();
             myCommand.Parameters.AddWithValue("@Name", "Sprite");
-            var result = myCommand.ExecuteNonQuery();
+            int result = myCommand.ExecuteNonQuery();
             databaseObject.CloseConnection();
 
             Console.WriteLine("Row added : {0}", result);
